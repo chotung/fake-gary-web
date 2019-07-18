@@ -1,0 +1,108 @@
+body, html {
+  margin: 0;
+  box-sizing: border-box;
+  /* height: 100%; */
+
+}
+
+header {
+  margin: 0 0;
+  color: white;
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/36024_1413237625354_6479534_n.jpg?_nc_cat=106&_nc_oc=AQnO7Oz8Coc1KJBC94LHi-zD9DOgWfFEo7HPGUII-OJ5nt6RyhYm03esp40qzWtLptB_52ZkNZOEbvIezPtllsrD&_nc_ht=scontent-iad3-1.xx&oh=d971ad1b7bf4087c9d3d67097b698a60&oe=5DC487A5");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+section {
+  /* margin: 0 10vw; */
+  height: 100%;
+}
+
+section:nth-child(even) {
+  background-color: #EEEEEE;
+}
+
+.intro {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+article {
+  padding: 1rem;
+}
+
+#advice article {
+  text-align: justify;
+  text-justify: inter-word;  
+  margin: 0 15vw;
+}
+#achievements article {
+
+}
+
+#passions article {
+  text-align: center;
+}
+
+#thought {
+  /* margin: 0 15vw; */
+  text-align: center;
+}
+
+h1::before {
+  content:"\2014";
+}
+
+h1::after {
+  content: "\2014";
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.subheading {
+  margin: 0;
+  padding-top: 5vh;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 36px; 
+}
+
+.subheading:before {
+  content: "\2014";
+}
+
+.subheading:after {
+  content: "\2014";
+}
+
+.milestone {
+  display: flex;
+  padding: 1rem 10vw;
+  /* margin: 10px 10vw; */
+}
+
+#thought {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(3, 34, 152, 1) 15%, rgba(179, 228, 228, 1) 100%);
+  color: #EEEEEE; 
+  font-size: 26px;
+}
+
+footer {
+  text-align: center;
+}

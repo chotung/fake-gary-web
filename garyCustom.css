@@ -1,0 +1,121 @@
+
+/* font */
+
+#s-content div.title.big>div>div {
+  font-family: 'Open Sans' !important;
+  font-weight: 900;
+}
+
+s-component-content s-font-title s-title-large li {
+  font-size: 30px;
+}
+
+#header-container .sixteen.columns.header li a {
+  font-size: 150%;
+  color: black;
+}
+
+#header-container .sixteen.columns.header li a:hover {
+  font-size: 150%;
+  color: #3377cc;
+}
+
+#header-container .sixteen.columns.header li a.selected {
+  font-size: 150%;
+  color: #3377cc;
+}
+
+#header-container .sixteen.columns.header li a .s-font-body {
+  font-family: 'gotham rounded', 'open-sans', sans-serif;
+}
+
+/* margin */
+
+.sixteen.columns {
+  margin: 0 !important;
+}
+
+.s-text .s-component-content {
+  text-transform: none !important;
+}
+
+/* images */
+
+.s-gallery .s-gallery-item img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.s-gallery .s-gallery-item img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* connect icons */
+
+.three.columns {
+  margin: 5px !important;
+  max-height: 180px !important;
+}
+
+.three.columns img {
+  max-width: 160px;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  -ms-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+.three.columns img:hover {
+  border: 2px outset grey;
+  border-radius: 50%;
+}
+
+.s-bg-image a {
+  text-decoration: none !important;
+  border: none !important;
+}
+
+.s-bg-image a:hover {
+  color: #3377cc !important;
+}
+
+.s-bg-image .s-text .s-component-content li {
+  padding-bottom: 10px;
+}
+
+/* title */
+a[data-scroll-name="#1"]~.wide.image .container .title.big {
+  font-size: 450% !important;
+
+  text-shadow: 0px 0px 21px rgba(0, 0, 0, 1) !important;
+}
+
+
+/* prof pic */
+@media only screen and (max-width: 727px) {
+  .s-bg-image {
+    background-position: 80% !important;
+  }
+
+  #s-content li.slide:first-child h1 {
+    font-size: 20vw !important;
+  }
+
+  #s-content li.slide:first-child .s-section .container {
+    transform: translateY(20%);
+  }
+
+}
+
+#s-content .s-text .s-component-content ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-top: 3em !important;
+  margin-bottom: 0em !important;
+  font-family: 'bebas neue', 'gotham rounded', 'open-sans', sans-serif !important;
+}
